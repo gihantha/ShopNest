@@ -12,6 +12,8 @@
     <?php $this->load->view("includes/navbar") ?> 
 
 
+    <?php $this->load->view("includes/footer") ?> 
+
 
     <?php $this->load->view("includes/js") ?>
 
