@@ -10,6 +10,7 @@
     <?php $this->load->view("includes/topbar") ?> 
 
     <?php $this->load->view("includes/navbar") ?> 
+    
 
 
     <?php $this->load->view("includes/footer") ?> 
