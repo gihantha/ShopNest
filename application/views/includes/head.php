@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-    <title>EShopper - Bootstrap Shop Template</title>
+    <title>Shop   Nest</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -18,4 +18,4 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">

@@ -5,6 +5,15 @@
 </head>
 
 <body>
-    <p>This is Home</p>
+
+
+    <?php $this->load->view("includes/topbar") ?> 
+
+    <?php $this->load->view("includes/navbar") ?> 
+
+
+
+    <?php $this->load->view("includes/js") ?>
+
 </body>
 </html>
