@@ -8,4 +8,8 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+
+	function forget_password(){
+		$this->load->view('forget_password');
+	}
 }

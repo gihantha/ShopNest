@@ -50,15 +50,16 @@
                             <a href="<?php echo base_url();?>contact" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="" class="nav-item nav-link">Login</a>
-                            <a href="" class="nav-item nav-link">Register</a>
+                            <a href="<?php echo base_url();?>user_profile" class="nav-item nav-link">Admin</a>
+                            <a href="<?php echo base_url();?>login" class="nav-item nav-link">Login</a>
+                            <a href="<?php echo base_url();?>register" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
                 </nav>
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" style="height: 410px;">
-                            <img class="img-fluid" src="assets/img/carousel-1.jpg" alt="Image">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/carousel-1.jpg" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
@@ -68,7 +69,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" style="height: 410px;">
-                            <img class="img-fluid" src="assets/img/carousel-2.jpg" alt="Image">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/carousel-2.jpg" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
