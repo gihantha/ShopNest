@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php $this->load->view("includes/head") ?>	
+    <?php $this->load->view("admin/common/head") ?>	
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 
     
 
-<div class="container">
+<div class="container mt-10">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
@@ -74,7 +74,7 @@
     </div>
 
 
-    <?php $this->load->view("includes/js") ?>
+    <?php $this->load->view("admin/common/js") ?>
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php $this->load->view("includes/head") ?>	
+    <?php $this->load->view("admin/common/head") ?>	
 </head>
 
 <body>
@@ -9,7 +9,7 @@
 
 
      
-    <div class="container">
+    <div class="container mt-10">
 
         <!-- Outer Row -->
         <div class="row justify-content-center">
@@ -58,10 +58,10 @@
     </div>
 
 
-    <!-- <?php $this->load->view("includes/footer") ?>  -->
+    <!-- <?php $this->load->view("admin/common/footer") ?>  -->
 
 
-    <?php $this->load->view("includes/js") ?>
+    <?php $this->load->view("admin/common/js") ?>
 
 </body>
 </html>
